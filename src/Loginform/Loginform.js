@@ -10,6 +10,7 @@ const Loginform = () => {
       <div className="login-box">
         <form>
           <h2>Login</h2>
+          
           <div className="input-box">
             <span className="icon">
                 <FaEnvelope/>
