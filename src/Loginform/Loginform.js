@@ -7,6 +7,7 @@ import {FaLock} from 'react-icons/fa';
 const Loginform = () => {
   return (
     <div className="container">
+        <section>
       <div className="login-box">
         <form>
           <h2>Login</h2>
@@ -28,14 +29,16 @@ const Loginform = () => {
           <div className='remember-forgot'>
             <label>
                 <input type='checkbox'/>
-                    Remember ?
-                <a href="#">Forgot Password ?</a>
+                    Remember me
             </label>
+
+                <a href="#">Forgot Password ?</a>
+            
           </div>
           <button type='submit'>Login</button>
           <div className='register'>
             <p>
-                Don`t have an account ?
+                Don`t have an account ?  
                 <a href='#'>
                     Register
                 </a>
@@ -43,6 +46,7 @@ const Loginform = () => {
           </div>
         </form>
       </div>
+      </section>
     </div> 
   );
 }
