@@ -52,4 +52,3 @@ const Loginform = () => {
 }
 
 export default Loginform;
-
